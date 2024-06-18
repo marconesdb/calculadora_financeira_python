@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Meta Financeira</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: rgba(0, 0, 0, 0.873);
+        color: white;
+      }
+      
+      h1 {
+        text-align: center;
+        margin-top: 200px;
+        font-size: 32px;
+        color: white;
+      }
+      
+      form {
+        max-width: 650px;
+        margin: 0 auto;
+        background-color: #c70c0c;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+       
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: black;
+      }
+      
+      input[type="number"] {
+        width: 100%;
+        height: 40px;
+        padding: 0px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+        background-color: white;
+      }
+      
+      input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(50, 50, 131);
+        color: #ffffff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+      input[type="submit"]:hover {
+        background-color:rgb(19, 19, 58);
+      }
+      
+      p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+      }
+      
+    </style>
+</head>
+<body>
+    <h1>Calculadora de Meta Financeira com Economia Mensal</h1>
+    <form action="/" method="POST">
+        <label for="meta">Insira sua meta financeira:</label>
+        <input type="number" step="0.01" name="meta" placeholder="Meta Financeira R$:" required><br><br>
+        <label for="poupanca_mensal">Insira sua economia mensal:</label>
+        <input type="number" step="0.01" name="poupanca_mensal" placeholder="Economia Mensal R$:"required><br><br>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+</html>
