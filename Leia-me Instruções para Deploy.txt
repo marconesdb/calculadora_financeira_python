@@ -1,0 +1,9 @@
+Crie um arquivo sem extensão chamado Procfile conforme o modelo desse projeto.
+Crie um arquivo txt chamado requirements.txt conforme o modelo ou gere um usando o comando
+
+pip freeze > "requirements.txt"
+
+Use os sites:
+
+render.com
+https://railway.app/
